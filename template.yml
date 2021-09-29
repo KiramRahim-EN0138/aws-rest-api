@@ -112,7 +112,7 @@ Resources:
           Type: Api
           Properties:
             Path: /
-            Method: DELETE
+            Method: POST
 
 Outputs:
   WebEndpoint:
