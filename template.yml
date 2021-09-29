@@ -85,7 +85,7 @@ Resources:
   deleteItemFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: src/handlers/delete-by-id.deleteItemHandler
+      Handler: src/handlers/delete-by-id.deleteByIdHandler
       Description: A simple example includes a HTTP post method to add one item to a DynamoDB table.
       Policies:
         # Give Create/Read/Update/Delete Permissions to the SampleTable
