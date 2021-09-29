@@ -112,7 +112,7 @@ Resources:
           Type: Api
           Properties:
             Path: /
-            Method: POST
+            Method: PUT
 
 Outputs:
   WebEndpoint:
